@@ -1,0 +1,282 @@
+common start */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #626262;
+}
+
+
+/* common end */
+/* header start */
+header{
+   
+    padding: 20px 0;
+     border-bottom: 1px solid #c4c4c4b0;
+}
+.container{
+
+    width: 90%;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+    overflow: hidden;
+    }
+.logo{
+    margin-top: 13px;
+    width: 13%;
+    /* border: 1px solid blue; */
+    float: left;
+    }
+.logo img{
+    width: 100%;
+    }
+.menu{
+        width: 60%;
+        /* border: 1px solid blue; */
+        float: right;
+        
+    }
+
+.menu ul{
+    float: right;
+    }
+.menu ul li{
+    list-style: none;
+    float: left;
+
+
+    }
+.menu ul li a{
+        margin: 0 36px;
+        padding: 2px 5px;
+        display: inline-block;
+        color: #626262;
+        text-decoration: none;
+        text-transform: uppercase;
+        border-bottom: 1px solid  transparent;
+        transform: .15s;
+    }
+.menu ul li:last-child a{
+    margin-right: 0;
+    }
+.menu ul li a:hover{
+    border-bottom: 1px solid #626262;
+    
+}
+    /* header end */
+
+ /* banner start     */
+ .b_img{
+
+ }
+ .b_img img{
+     width: 100%;
+ }
+  /* banner end     */
+
+  /* about star */
+  .container2{
+    margin: 0 auto;
+    width: 88%;
+    overflow: hidden;
+}
+  .about{
+    padding: 80px 0;
+  }
+
+ 
+.tag{
+    /* margin: 0; */
+    font-size: 14px;
+    font-weight: 300;
+    color: #7a3968;
+    font-family: 'Ubuntu', sans-serif ;
+      text-transform: uppercase;
+
+
+  }
+
+  
+ .c_tittle{
+     margin: 20px 0 25px;
+     font-weight: 400;
+    font-size: 30px;
+  }
+  .c_p{
+      margin: 0px;
+      /* font-size: 16px; */
+    line-height: 25px;
+
+    
+}
+.mb_40{
+    margin-bottom: 40px;
+}
+  
+/* about end */
+/* blog start */
+.blog{
+    padding: 80px 0 20px;
+    width: 96%;
+    overflow: hidden;
+}
+
+.b_content{
+   overflow: hidden;
+}
+.single{
+    width: 47%;
+    /* border: 1px solid red; */
+    float: left;
+    margin-bottom: 60px;
+    position: relative;
+  
+}
+/* div{
+    display: block;
+} */
+.single:nth-child(even){
+   margin-left: 6%;
+   /* float: right; */
+
+}
+/* .single:nth-child(odd){
+    /* margin-left: 6%; */
+    float: left;
+ } */
+.s_img{ margin-bottom: 25px;
+}
+.s_img img{
+    width: 100%;
+}
+/* blog end */
+/* form start */
+.form{
+    width: 100%;
+    
+    background-color:rgb(230, 224, 224);
+    
+    
+}
+.ac{
+    width: 27%;
+    margin: 0 auto;
+    padding: 70px;
+    
+    
+}
+.md{
+   text-align: center;
+}
+.form{
+    font-family: 'Playfair Display', serif;;
+}
+form{
+    margin: 0px 0px -17px 0px;;
+}
+.form form input{
+    border: none;
+    background: transparent;
+    outline: none;
+    width: 84%;
+   
+}
+
+
+
+span{ 
+    /* margin: 0; */
+    padding: 1px;
+
+}
+
+.bt{
+    margin-top: 92px;
+    border-bottom: 1px solid;
+}
+.img{
+    float: right;
+}
+
+/* form end */
+
+/* blog2 start */
+.load{
+    margin: 150px 0;
+    text-align: center;
+
+   }
+   .load button{
+     width: 165px;
+     height: 60px;
+     background: transparent;
+     cursor: pointer;
+     font-family: 'Playfair Display', serif;
+     font-size: 16px;
+     font-weight: 400;
+     color: #626262;
+     
+   }
+   .load button:hover{
+       background-color: #626262;
+       color: white;
+       transform: .3;
+
+   }
+/* blog2 end */
+/* footer star */
+footer{
+    padding: 20px 0;
+    background-color: #f0f0f0;
+}
+.trms{
+    width: 25%;
+    float: left;
+}
+.trms ul{
+    padding: 0;
+    overflow: hidden;
+}
+.trms ul li{
+    list-style: none;
+    float: left;
+}
+.trms ul li a{
+    margin: 0 20px;
+    display: inline-block;
+    text-decoration: none;
+}
+.trms ul li:first-child a{
+    margin-left: 0;
+}
+.fl{
+    width: 20%;
+    float: right;
+    color:#000
+}
+.fl ul{
+    float: right;
+}
+.fl ul li{
+    
+        list-style: none;
+        float: left;
+}
+.fl ul li span{
+    margin: 0 10px;
+}
+.fl ul li a{
+    
+    margin: 0 10px;
+    display: inline-block;
+    text-decoration: none;
+}
+.fl ul li:first-child a{
+    margin-right: 0;
+}
+
+
+
+/* footer end
